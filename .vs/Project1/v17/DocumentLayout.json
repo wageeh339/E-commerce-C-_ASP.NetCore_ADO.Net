@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|d:\\projects\\project1\\project1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{472F5791-71B9-408F-A243-DE473B5764C4}|Project1\\Project1.csproj|solutionrelative:project1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowE4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T10:02:35.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project1\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Project1\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T09:04:22.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T12:27:55.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Project1\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Project1\\Controllers\\CartController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAABcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:26:58.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Project1\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD8AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:27:47.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "Project1\\Models\\ProductViewModel.cs",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "Project1\\Models\\ProductViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:08:37.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "loginController.cs",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Controllers\\loginController.cs",
+              "RelativeDocumentMoniker": "Project1\\Controllers\\loginController.cs",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Controllers\\loginController.cs",
+              "RelativeToolTip": "Project1\\Controllers\\loginController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T07:19:00.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Program.cs",
+              "RelativeDocumentMoniker": "Project1\\Program.cs",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Program.cs",
+              "RelativeToolTip": "Project1\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:45:58.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartItems.cs",
+              "DocumentMoniker": "D:\\Projects\\Project1\\Project1\\Models\\CartItems.cs",
+              "RelativeDocumentMoniker": "Project1\\Models\\CartItems.cs",
+              "ToolTip": "D:\\Projects\\Project1\\Project1\\Models\\CartItems.cs",
+              "RelativeToolTip": "Project1\\Models\\CartItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T09:42:59.101Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+﻿@{
+    
+    ViewData["Title"] = "Home Page";
+    @model List<Project1.Models.ProductViewModel>
+   
+}
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+        <img src="@Model.FirstOrDefault()?.Image" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" style="width: 100%; height: 300px; object-fit: fill;">
+    </div>
+    <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">@Model.FirstOrDefault()?.Title</h1>
+        <p class="lead">@Model.FirstOrDefault()?.Description</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Add To Cart</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Details</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+
+        @{
+            foreach (var product in Model)
+            {
+                   
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <!-- Static size for image -->
+                        <img src="@product.Image" class="card-img-top" style="width: 100%; height: 200px; object-fit: cover;" />
+
+                        <div class="card-body">
+                            <!-- Static size for text container -->
+                            <div style="height: 100px; overflow: hidden;">
+                                <p class="card-text">@product.Description</p>
+                            </div>
+
+                            <!-- Full description (hidden by default) -->
+                            <div class="full-description" style="display: none;">
+                                <p class="card-text">@product.Description</p>
+                            </div>
+
+                            <!-- Truncated description with "Read More" link -->
+                            @if (product.Description.Length > 100)
+                            {
+                                <a href="#" class="read-more-link">Read More</a>
+                            }
+                            else
+                            {
+                                <span style="display: none;"></span> <!-- Placeholder for spacing -->
+                            }
+
+                            <!-- "Read Less" link (hidden by default) -->
+                            <a href="#" class="read-less-link" style="display: none;">Read Less</a>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                    <form method="post" action="@Url.Action("AddToCart", "Home")">
+                                        <!-- Hidden input fields for product ID and price -->
+                                        <input type="hidden" name="productId" value="@product.ID" />
+                                        <input type="hidden" name="productId" value="@product.Title" />
+                                        <input type="hidden" name="productPrice" value="@product.Price" />
+
+                                        <div class="btn-group">
+                                            <button type="submit" class="btn btn-sm btn-outline-secondary">Buy</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Details</button>
+                                        </div>
+                                    </form>
+                                <small class="text-muted">@product.Price</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            }
+        }
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.read-more-link').forEach(function (element) {
+        element.addEventListener('click', function (event) {
+            event.preventDefault();
+            var cardBody = this.closest('.card-body');
+            cardBody.querySelector('.full-description').style.display = 'block';
+            this.style.display = 'none';
+            cardBody.querySelector('.read-less-link').style.display = 'inline';
+        });
+    });
+
+    document.querySelectorAll('.read-less-link').forEach(function (element) {
+        element.addEventListener('click', function (event) {
+            event.preventDefault();
+            var cardBody = this.closest('.card-body');
+            cardBody.querySelector('.full-description').style.display = 'none';
+            cardBody.querySelector('.read-more-link').style.display = 'inline';
+            this.style.display = 'none';
+        });
+    });
+</script>
+
